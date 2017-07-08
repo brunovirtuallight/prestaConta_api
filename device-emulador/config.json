@@ -1,0 +1,19 @@
+{
+"protocol": {
+  "mqtt":{
+  "serverAddress": "187.110.32.148",
+  "port": 1883,
+  "topic": "/hackathon/5a5d/attrs"
+  }
+},
+"device":{
+  "frequency": 1000,
+  "duration": 5000,
+  "accelerate": 1,
+  "sensors": [
+      {"name": "Cpf", "value": "FILE(data.csv:Cpf)"},
+      {"name": "Nome", "value": "FILE(data.csv:Nome)"},
+      {"name": "DataNascimento", "value": "FILE(data.csv:DataNascimento)"}
+  ]
+}
+}
